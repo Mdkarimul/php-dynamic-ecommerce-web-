@@ -2,6 +2,7 @@
 
 require_once("common_file/databases/database.php");
 
+echo 'karimul';
 
 ?>
 

@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+
+
+*:focus {
+  box-shadow:none!important;
+outline: none!important;
+}
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.sidebar 
+{
+    position: fixed;
+    left:0px;
+   
+    width:21%;
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1000;
+    background-color:#ddd;
+    padding:20px;
+    border:1px solid red;
+}
+.page
+{
+    width:81%;
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    padding:40px;
+    margin-left:20%;
+    border:1px solid red;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.collapse-item:hover,.active
+{
+    border:1px solid #ccc;
+    cursor:pointer;
+}
+/*scroll bar design*/
+.category-area::-webkit-scrollbar
+{
+width:10px;
+
+}
+
+.category-area::-webkit-scrollbar-track
+{
+width:20px;
+background-color: rgb(170, 115, 115);
+
+}
+
+.category-area::-webkit-scrollbar-thumb
+{
+width:20px;
+background-color: black;
+
+}
+
+
+
+.category-scroll::-webkit-scrollbar
+{
+width:10px;
+}
+.category-scroll::-webkit-scrollbar-track
+{
+width:10px;
+background-color: rgb(170, 115, 115);
+}
+.category-scroll::-webkit-scrollbar-thumb
+{
+width:10px;
+background-color: black;
+}
+
+
+.brand-scroll::-webkit-scrollbar
+{
+width:10px;
+}
+.brand-scroll::-webkit-scrollbar-track
+{
+width:10px;
+background-color: rgb(170, 115, 115);
+}
+.brand-scroll::-webkit-scrollbar-thumb
+{
+width:10px;
+background-color: black;
+}
+
+
+
+
+.thumb,.front,.top,.bottom,.left,.right
+{
+width:100px;
+height:100px;
+border:1px solid red;
+text-align: center;
+position: relative;
+
+}
+
+.thumb input ,.front input ,.top input ,.bottom input ,.left input,  .right input
+{
+    width:100px;
+    height:100px;
+   position: absolute;
+   top:0px;
+   left:0px;
+   opacity:;
+   
+}
+
+.showcase-formating
+{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    height: 60px;
+    background-color: black;
+}
+
+.target::selection 
+{
+    background-color:inherit;
+}
+
+.title-box
+{
+    position: absolute;
+    z-index: 100;
+}
+
+.showcase-subtitle
+{
+    top:110px;
+}
+
+.title-buttons
+{
+width:400px;
+height:200px;
+padding:15px;
+}
+
+
